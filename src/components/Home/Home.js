@@ -22,7 +22,7 @@ function Home() {
 
               <h1 className="heading-name">
                 I'M
-                <strong className="main-name"> Muhammad Awais Qarni </strong>
+                <strong className="main-name"><a href="https://m-awais-qarni-porfolio.vercel.app/">Muhammad Awais Qarni</a>  </strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
