@@ -13,6 +13,10 @@ import {
   SiPytorch,
   SiFirebase,
   SiNextdotjs,
+  SiDotnet,
+  SiMysql,
+  SiAngularjs,
+  SiVisualstudiocode,
 } from "react-icons/si";
 
 function Techstack() {
@@ -47,6 +51,15 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPytorch />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiDotnet />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMysql />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAngularjs />
       </Col>
     </Row>
   );

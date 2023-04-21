@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+//import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/pp_3.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -34,10 +35,9 @@ function Home2() {
                 <b className="purple">Artificial Intelligence </b> <br />
                 <b className="purple">Web Technologies and Products </b> <br />
                 <b className="purple">Samll Scale Application Development </b> <br />
-                and
-                also in areas related to{" "}
+                And also in areas related to{" "} <br />
                 <b className="purple">                    
-                  Deep Learning and Natural Launguage Processing.
+                  Deep Learning & Natural Launguage Processing.
                 </b>
               </i>
               <br />
@@ -58,7 +58,7 @@ function Home2() {
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={myImg} className="img-fluid" alt="avatar" style={{ maxHeight: "250px" }} />
             </Tilt>
           </Col>
         </Row>
