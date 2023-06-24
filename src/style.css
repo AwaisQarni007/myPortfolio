@@ -281,12 +281,16 @@ button:focus {
 }
 
 .main-name {
-  margin-left: 10px;
   color: #cd5ff8;
+  margin-left: 10px;
+  letter-spacing: 2px ;
+  
+/* font-family: 'Nunito', sans-serif; */
+}
+.Kablammo{
+
   font-family: 'Kablammo', cursive;
   font-style: italic;
-  letter-spacing: 2px ;
-/* font-family: 'Nunito', sans-serif; */
 }
 
 .Typewriter__wrapper {

@@ -40,7 +40,7 @@ function NavBar() {
       <Container>
         <Navbar.Brand href="/" className="d-flex">
           <h4 className="heading-name">
-            <strong className="main-name"> MAQ </strong>
+            <strong className="main-name Kablammo"> MAQ </strong>
             {/* <strong className="main-name"> <img src={logo}></img> </strong> */}
           </h4>
         </Navbar.Brand>
