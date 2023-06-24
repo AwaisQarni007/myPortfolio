@@ -6,6 +6,7 @@ import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
 import { ImBlog } from "react-icons/im";
+import logo from "../Assets/logo.jpg"
 import {
   AiFillStar,
   AiOutlineHome,
@@ -40,6 +41,7 @@ function NavBar() {
         <Navbar.Brand href="/" className="d-flex">
           <h4 className="heading-name">
             <strong className="main-name"> MAQ </strong>
+            {/* <strong className="main-name"> <img src={logo}></img> </strong> */}
           </h4>
         </Navbar.Brand>
         <Navbar.Toggle

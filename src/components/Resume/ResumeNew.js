@@ -9,7 +9,8 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://github.com/AwaisQarni007/myPortfolio/blob/master/src/Assets/Muhammad%20Awais%20Qarni%20EP%20Resume.doc?raw=true";
+"https://github.com/AwaisQarni007/myPortfolio/blob/c840647d27dc5f5a1b3a4c5756c7b543e01579a5/src/Assets/Muhammad%20Awais%20Qarni%20EP%20Resume%20(1).pdf"
+  //"https://raw.githubusercontent.com//AwaisQarni007/myPortfolio/blob/master/src/Assets/Muhammad%20Awais%20Qarni%20EP%20Resume%20(1).pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
